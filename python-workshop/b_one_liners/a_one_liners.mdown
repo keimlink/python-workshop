@@ -12,7 +12,7 @@
     <title>Directory listing for /</title>
     ...
 
-## Lokaler SMTP Server
+## Local SMTP server
     $ python -m smtpd -n -c DebuggingServer localhost:1025
     
     $ telnet 127.0.0.1 1025
@@ -21,6 +21,6 @@
     Escape character is '^]'.
     220 egg.local Python SMTP proxy version 0.2
 
-## Lokalen Hostnamen ausgeben
+## Display local hostname
     $ python -c "import platform; print platform.node()"
     egg.local
