@@ -1,0 +1,11 @@
+# The interactive interpreter
+    $ python
+    >>> help()
+    help> topics
+    help> LISTS
+    help> ^D
+    >>> help(str)
+    >>> help(len)
+    >>> import sys
+    >>> sys.path
+    ['', ...]

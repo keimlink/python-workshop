@@ -1,0 +1,30 @@
+# Simple datatypes
+
+## None
+    >>> x = None
+    >>> print x
+    None
+    >>> x + 1
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+    
+## Integer
+    >>> x = 1
+    >>> x + 2
+    3
+    >>> x + '4'
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+## Float
+    >>> 3 / 2
+    1
+    >>> 3. / 2
+    1.5
+
+## Boolean
+    >>> a = True
+    >>> not a
+    False

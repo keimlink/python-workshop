@@ -1,0 +1,26 @@
+# Simple python one liners
+
+## Local webserver
+    $ python -m SimpleHTTPServer
+    
+    $ telnet 127.0.0.1 8000
+    Trying 127.0.0.1...
+    Connected to localhost.
+    Escape character is '^]'.
+    GET /
+    
+    <title>Directory listing for /</title>
+    ...
+
+## Lokaler SMTP Server
+    $ python -m smtpd -n -c DebuggingServer localhost:1025
+    
+    $ telnet 127.0.0.1 1025
+    Trying 127.0.0.1...
+    Connected to localhost.
+    Escape character is '^]'.
+    220 egg.local Python SMTP proxy version 0.2
+
+## Lokalen Hostnamen ausgeben
+    $ python -c "import platform; print platform.node()"
+    egg.local
