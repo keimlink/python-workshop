@@ -1,12 +1,11 @@
 """Sets and frozensets
 """
 print __doc__
-
 # set
-wort = set('Anna')
-print wort
-print wort.difference('Lena')
-print wort.union('Lena')
+word = set('Anna')
+print word
+print word.difference('Lena')
+print word.union('Lena')
 frozen = set(['frost', 'winter'])
 print frozen
 frozen.add('winter') # Ignored
