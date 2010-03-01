@@ -2,12 +2,12 @@
 """
 print __doc__
 a = range(3)
-print a
+print 'a', a
 b = range(3)
-print b
-print a == b
-print a is b
+print 'b', b
+print 'a == b', a == b
+print 'a is b', a is b
 c = b
-print c
-print c == b
-print c is b
+print 'c', c
+print 'c == b', c == b
+print 'c is b', c is b

@@ -12,6 +12,7 @@ colors.sort()
 print colors # Now the list is sorted.
 print ', '.join(colors)
 print '-' * 40
+print colors[1] # orange
 print colors[:4] # ['blue', 'yellow', 'purple', 'orange']
 print colors[2:4] # ['purple', 'orange']
 print colors[:-3] # ['blue', 'yellow']
