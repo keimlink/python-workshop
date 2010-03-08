@@ -11,3 +11,6 @@ c = b
 print 'c', c
 print 'c == b', c == b
 print 'c is b', c is b
+c.append(4)
+print 'c', c
+print 'b', b
