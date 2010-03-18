@@ -15,7 +15,12 @@ print text_raw
 print '-' * 40
 print 'Hi %s!' % 'Guido'
 print 'Hi %s! My name is %s.' % ('Guido', 'Dennis')
-print 'Hi %(me)s! My name is %(friend)s.' % {'friend': 'Dennis', 'me': 'Guido'}
+print 'Hi %(friend)s! My name is %(me)s.' % {'me': 'Brian', 'friend': 'Guido'}
+# String formatting with Python 2.6 and 3.0
+print 'Hi {0}!'.format('Guido')
+print 'Hi {0}! My name is {1}.'.format('Guido', 'Dennis')
+print 'Hi {friend}! My name is {me}.'.format(me='Brian', friend='Guido')
+print 'This DVD contains {0:.2f} GB of data.'.format(1.7484232)
 print '-' * 40
 text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 print text.count('dolor')
