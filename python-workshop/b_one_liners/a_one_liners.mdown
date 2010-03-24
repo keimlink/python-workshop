@@ -24,3 +24,9 @@
 ## Display local hostname
     $ python -c "import platform; print platform.node()"
     egg.local
+
+## Fire up a HTTP server with the documentation of all local python packages and modules
+    $ pydoc -p 8000
+
+## Pop up a graphical interface for finding and serving documentation
+    $ pydoc -g
