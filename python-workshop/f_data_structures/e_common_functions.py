@@ -21,8 +21,13 @@ print paul[1][3:5] * 3 # 'bububu'
 print len(paul) # 3
 print len(paul[1]) # 7
 print '-' * 40
-name, city, phone = paul
-print name
-print city
-print phone
-name, city = paul # Will raise a ValueError
+integers = range(0,3)
+print 'integers', integers
+a, b, c = integers
+print 'a', a # 0
+print 'b', b # 1
+print 'c', c # 2
+print integers[0] is a # True
+print id(integers[0])
+print id(a)
+a, b = integers # Will raise a ValueError
